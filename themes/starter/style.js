@@ -194,6 +194,9 @@ const Style = () => {
   height: auto;
   width: auto;
 }
+.shadow-text {
+  text-shadow: 0.1em 0.1em 0.2em #000;
+}
   `}</style>
 }
 
