@@ -85,6 +85,8 @@ const LayoutIndex = props => {
     <>
       {/* 英雄区 */}
       {siteConfig('STARTER_HERO_ENABLE', null, CONFIG) && <Hero />}
+      {/* 团队介绍 */}
+      {siteConfig('STARTER_TEAM_ENABLE', null, CONFIG) && <Team />}
       {/* 产品特性 */}
       {siteConfig('STARTER_FEATURE_ENABLE', null, CONFIG) && <Features />}
       {/* 关于 */}
@@ -94,11 +96,9 @@ const LayoutIndex = props => {
       {/* 评价展示 */}
       {siteConfig('STARTER_TESTIMONIALS_ENABLE', null, CONFIG) && (
         <Testimonials />
-      )}
+        )}
       {/* 常见问题 */}
       {siteConfig('STARTER_FAQ_ENABLE', null, CONFIG) && <FAQ />}
-      {/* 团队介绍 */}
-      {siteConfig('STARTER_TEAM_ENABLE', null, CONFIG) && <Team />}
       {/* 博文列表 */}
       {siteConfig('STARTER_BLOG_ENABLE', null, CONFIG) && (
         <Blog posts={posts} />

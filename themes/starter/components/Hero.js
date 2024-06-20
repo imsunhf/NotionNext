@@ -13,37 +13,14 @@ export const Hero = () => {
     >
       <div className="container position-relative">
         <div className="-mx-4 flex flex-wrap items-center position-absolute top-0" >
-          <div className="w-full px-4" >
+          <div className="w-full" >
            
           </div>
 
           {/* 产品预览图片 */}
-          { siteConfig('STARTER_HERO_PREVIEW_IMAGE', null, CONFIG) && <div className="w-full px-4 relative">
-          
-            <div
-              className="wow fadeInUp relative z-10 mx-auto max-w-[100%]"
-              data-wow-delay=".25s"
-            >
-
-              <div className="">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={siteConfig('STARTER_HERO_PREVIEW_IMAGE', null, CONFIG)}
-                  alt="hero"
-                  className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
-                />
-              </div>
-
-              {/* 背景图 */}
-              <div className="absolute -left-9 bottom-0 z-[-1]">
-                <img src='/images/starter/bg-hero-circle.svg'/>
-              </div>
-              <div className="absolute -right-6 -top-6 z-[-1]">
-              <img src='/images/starter/bg-hero-circle.svg'/>
-              </div>
-            </div>
-            <div
-              className="hero-content wow fadeInUp mx-auto max-w-[780px] text-center absolute z-10 top-[80px] left-[50%] translate-x-[-50%]"
+          { siteConfig('STARTER_HERO_PREVIEW_IMAGE', null, CONFIG) && <div className="w-full  relative">
+          <div
+              className="hero-content wow fadeInUp mx-auto max-w-[780px] text-center  z-10 top-[0px] "
               data-wow-delay=".2s"
             >
               {/* 主标题 */}
@@ -87,6 +64,29 @@ export const Hero = () => {
               </ul>
 
             </div>
+            <div
+              className="wow fadeInUp relative z-10 mx-auto pb-2 max-w-[100%]"
+              data-wow-delay=".25s"
+            >
+
+              <div className="">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={siteConfig('STARTER_HERO_PREVIEW_IMAGE', null, CONFIG)}
+                  alt="hero"
+                  className="mx-auto max-w-full rounded-xl rounded-tr-xl"
+                />
+              </div>
+
+              {/* 背景图 */}
+              {/* <div className="absolute -left-9 bottom-0 z-[-1]">
+                <img src='/images/starter/bg-hero-circle.svg'/>
+              </div>
+              <div className="absolute -right-6 -top-6 z-[-1]">
+              <img src='/images/starter/bg-hero-circle.svg'/>
+              </div> */}
+            </div>
+           
           </div>
            }
 
