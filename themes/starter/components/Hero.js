@@ -32,7 +32,7 @@ export const Hero = () => {
               </p>
               {/* 按钮组 */}
               <ul
-                className="mb-10 flex flex-wrap items-center justify-center gap-5"
+                className=" flex flex-wrap items-center justify-center gap-5"
               >
                 {siteConfig('STARTER_HERO_BUTTON_1_TEXT', null, CONFIG) &&
                 <li>
