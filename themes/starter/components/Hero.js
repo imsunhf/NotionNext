@@ -9,7 +9,8 @@ export const Hero = () => {
      {/* <!-- ====== Hero Section Start --> */}
      <div
       id="home"
-      className="relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"
+      // md:pt-[130px] lg:pt-[160px]
+      className="relative overflow-hidden bg-primary pt-[88px] pb-[25px] "
     >
       <div className="container position-relative">
         <div className="-mx-4 flex flex-wrap items-center position-absolute top-0" >

@@ -19,11 +19,11 @@ export const Pricing = () => {
               <span className="mb-2 block text-lg font-semibold text-primary">
                 {siteConfig('STARTER_PRICING_TITLE', null, CONFIG)}
               </span>
-              <h2
+              {/* <h2
                 className="mb-3 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.2]"
               >
                 {siteConfig('STARTER_PRICING_TEXT_1', null, CONFIG)}
-              </h2>
+              </h2> */}
               <p className="text-base text-body-color dark:text-dark-6">
               {siteConfig('STARTER_PRICING_TEXT_2', null, CONFIG)}
               </p>
@@ -68,12 +68,12 @@ export const Pricing = () => {
 
                 </div>
               </div>
-              <a
+              {/* <a
                 href={siteConfig('STARTER_PRICING_1_BUTTON_URL', null, CONFIG)}
                 className="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"
               >
                 {siteConfig('STARTER_PRICING_1_BUTTON_TEXT', null, CONFIG)}
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -82,11 +82,11 @@ export const Pricing = () => {
             <div
               className="relative z-10 mb-10 overflow-hidden rounded-xl bg-white px-8 py-10 shadow-pricing dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14"
             >
-              <p style={{ writingMode: 'vertical-rl', textOrientation: 'mixed' }}
+              {/* <p style={{ writingMode: 'vertical-rl', textOrientation: 'mixed' }}
                 className="absolute p-1 right-0 top-0 inline-block rounded-bl-md rounded-tl-md bg-primary text-base font-medium text-white tracking-wider"
               >
                 {siteConfig('STARTER_PRICING_2_TAG', null, CONFIG)}
-              </p>
+              </p> */}
               <span
                 className="mb-5 block text-xl font-medium text-dark dark:text-white"
               >
@@ -117,12 +117,12 @@ export const Pricing = () => {
 
                 </div>
               </div>
-              <a
+              {/* <a
                 href={siteConfig('STARTER_PRICING_2_BUTTON_URL', null, CONFIG)}
                 className="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"
               >
                 {siteConfig('STARTER_PRICING_2_BUTTON_TEXT', null, CONFIG)}
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -161,12 +161,12 @@ export const Pricing = () => {
 
                 </div>
               </div>
-              <a
+              {/* <a
                 href={siteConfig('STARTER_PRICING_3_BUTTON_URL', null, CONFIG)}
                 className="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"
               >
                 {siteConfig('STARTER_PRICING_3_BUTTON_TEXT', null, CONFIG)}
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

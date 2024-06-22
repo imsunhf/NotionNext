@@ -30,7 +30,7 @@ export const Team = () => {
           </div>
 
           {/* 团队成员排列矩阵 */}
-          <div className='-mx-4 flex flex-wrap justify-center'>
+          <div className='-mx-4 flex flex-wrap justify-center items-center'>
             {CONFIG.STARTER_TEAM_ITEMS.map((item, index) => {
               return (
                 <div

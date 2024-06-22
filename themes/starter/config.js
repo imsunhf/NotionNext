@@ -66,9 +66,9 @@ const CONFIG = {
   STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '7000+',
-  STARTER_ABOUT_TIPS_2: '博客站点',
-  STARTER_ABOUT_TIPS_3: '正在线上运行',
+  STARTER_ABOUT_TIPS_1: '2.2亿公里',
+  STARTER_ABOUT_TIPS_2: '智架里程',
+  STARTER_ABOUT_TIPS_3: '正在不断进步中',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: true, // 价格区块开关
@@ -191,22 +191,22 @@ const CONFIG = {
 
   [
       {
-        STARTER_TEAM_ITEM_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa06c61bb-980e-4180-bc18-c15f92c78bb4%2Ftangly1024.jpg?table=collection&id=8e7acf17-de09-4fa1-abde-b5b80ad4a813&t=8e7acf17-de09-4fa1-abde-b5b80ad4a813&width=100&cache=v2',
+        STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/s3-m9-2x.jpg',
         STARTER_TEAM_ITEM_NICKNAME: '问界',
         STARTER_TEAM_ITEM_DESCRIPTION: '塞力斯'
       },
       {
-        STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
+        STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/s3-s7-2x.jpg',
         STARTER_TEAM_ITEM_NICKNAME: '智界',
         STARTER_TEAM_ITEM_DESCRIPTION: '奇瑞'
       },
       {
-        STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
+        STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/s3-s9-2x.jpg',
         STARTER_TEAM_ITEM_NICKNAME: '享界',
         STARTER_TEAM_ITEM_DESCRIPTION: '北汽'
       },
       {
-        STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
+        STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/default-01.png',
         STARTER_TEAM_ITEM_NICKNAME: '傲界(暂定)',
         STARTER_TEAM_ITEM_DESCRIPTION: '江淮'
       }
@@ -218,19 +218,19 @@ const CONFIG = {
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
   STARTER_BLOG_TEXT_1: '最近的新闻',
   STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
+    '',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
   STARTER_CONTACT_TITLE: '联系我们',
   STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
   STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
-  STARTER_CONTACT_LOCATION_TEXT: '中国，福建',
+  STARTER_CONTACT_LOCATION_TEXT: '中国',
   STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
-  STARTER_CONTACT_EMAIL_TEXT: 'mail@tangly1024.com',
+  STARTER_CONTACT_EMAIL_TEXT: 'mail@imsunhf@gmail.com',
 
   // 嵌入外部表单
-  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
+  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/noteforms-fcm4xh', // 基于NoteForm创建，将留言数据存在Notion中
   //   自定义留言表单，以下几个配置暂时废弃
   //   STARTER_CONTACT_MSG_TITLE: '向我们留言',
   //   STARTER_CONTACT_MSG_NAME: '姓名',
@@ -241,7 +241,7 @@ const CONFIG = {
   //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标
-  STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
+  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
   STARTER_BRANDS: [
     {
       IMAGE: '/images/starter/brands/graygrids.svg',
@@ -279,64 +279,64 @@ const CONFIG = {
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
-    {
-      TITLE: '关于我们',
-      LINK_GROUP: [
-        { TITLE: '官方主页', URL: '/#home' },
-        { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
-        {
-          TITLE: '帮助支持',
-          URL: 'https://docs.tangly1024.com/article/how-to-question'
-        },
-        {
-          TITLE: '合作申请',
-          URL: 'https://docs.tangly1024.com/article/my-service'
-        }
-      ]
-    },
-    {
-      TITLE: '功能特性',
-      LINK_GROUP: [
-        {
-          TITLE: '部署指南',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
-        },
-        {
-          TITLE: '升级指南',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
-        },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
-      ]
-    },
-    {
-      TITLE: 'Notion写作',
-      LINK_GROUP: [
-        {
-          TITLE: 'Notion开始写作',
-          URL: 'https://docs.tangly1024.com/article/start-to-write'
-        },
-        {
-          TITLE: '快捷键提升效率',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
-        },
-        {
-          TITLE: '中国大陆使用Notion',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
-        }
-      ]
-    }
+    // {
+    //   TITLE: '关于我们',
+    //   LINK_GROUP: [
+    //     { TITLE: '官方主页', URL: '/#home' },
+    //     { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
+    //     {
+    //       TITLE: '帮助支持',
+    //       URL: 'https://docs.tangly1024.com/article/how-to-question'
+    //     },
+    //     {
+    //       TITLE: '合作申请',
+    //       URL: 'https://docs.tangly1024.com/article/my-service'
+    //     }
+    //   ]
+    // },
+    // {
+    //   TITLE: '功能特性',
+    //   LINK_GROUP: [
+    //     {
+    //       TITLE: '部署指南',
+    //       URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
+    //     },
+    //     {
+    //       TITLE: '升级指南',
+    //       URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
+    //     },
+    //     { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
+    //   ]
+    // },
+    // {
+    //   TITLE: 'Notion写作',
+    //   LINK_GROUP: [
+    //     {
+    //       TITLE: 'Notion开始写作',
+    //       URL: 'https://docs.tangly1024.com/article/start-to-write'
+    //     },
+    //     {
+    //       TITLE: '快捷键提升效率',
+    //       URL: 'https://docs.tangly1024.com/article/notion-short-key'
+    //     },
+    //     {
+    //       TITLE: '中国大陆使用Notion',
+    //       URL: 'https://docs.tangly1024.com/article/notion-faster'
+    //     }
+    //   ]
+    // }
   ],
 
   STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
   STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
-  STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
+  STARTER_FOOTER_PRIVACY_POLICY_URL: '',
 
   STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
-  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
+  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '',
 
   STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
-  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
+  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '',
 
   // 404页面的提示语
   STARTER_404_TITLE: '我们似乎找不到您要找的页面。',
@@ -344,7 +344,7 @@ const CONFIG = {
   STARTER_404_BACK: '回到主页',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  STARTER_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
+  STARTER_POST_REDIRECT_URL: 'https://bbs.top02.top/', // 重定向域名
   STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
