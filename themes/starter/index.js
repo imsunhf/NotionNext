@@ -92,7 +92,7 @@ const LayoutIndex = props => {
       {/* 关于 */}
       {siteConfig('STARTER_ABOUT_ENABLE', null, CONFIG) && <About />}
       {/* 价格 */}
-      {siteConfig('STARTER_PRICING_ENABLE', null, CONFIG) && <Pricing />}
+      {/* {siteConfig('STARTER_PRICING_ENABLE', null, CONFIG) && <Pricing />} */}
       {/* 评价展示 */}
       {siteConfig('STARTER_TESTIMONIALS_ENABLE', null, CONFIG) && (
         <Testimonials />

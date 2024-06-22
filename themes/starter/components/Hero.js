@@ -65,7 +65,7 @@ export const Hero = () => {
 
             </div>
             <div
-              className="wow fadeInUp relative z-10 mx-auto pb-2 max-w-[100%]"
+              className="wow fadeInUp relative z-10 mx-auto pb-15 max-w-[100%]"
               data-wow-delay=".25s"
             >
 
