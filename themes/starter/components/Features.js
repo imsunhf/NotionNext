@@ -32,7 +32,7 @@ export const Features = () => {
         </div>
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 md:w-1/2 lg:w-1/4">
-            <div className="wow fadeInUp group mb-12" data-wow-delay=".1s">
+            <div className="wow fadeInUp group mb-12  flex flex-col items-center"  data-wow-delay=".1s">
               <div
                 className="relative z-10 mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-[14px] bg-primary"
               >
@@ -56,7 +56,7 @@ export const Features = () => {
             </div>
           </div>
           <div className="w-full px-4 md:w-1/2 lg:w-1/4">
-            <div className="wow fadeInUp group mb-12" data-wow-delay=".15s">
+            <div className="wow fadeInUp group mb-12  flex flex-col items-center" data-wow-delay=".15s">
               <div
                 className="relative z-10 mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-[14px] bg-primary"
               >
@@ -80,7 +80,7 @@ export const Features = () => {
             </div>
           </div>
           <div className="w-full px-4 md:w-1/2 lg:w-1/4">
-            <div className="wow fadeInUp group mb-12" data-wow-delay=".2s">
+            <div className="wow fadeInUp group mb-12  flex flex-col items-center" data-wow-delay=".2s">
               <div
                 className="relative z-10 mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-[14px] bg-primary"
               >
@@ -104,7 +104,7 @@ export const Features = () => {
             </div>
           </div>
           <div className="w-full px-4 md:w-1/2 lg:w-1/4">
-            <div className="wow fadeInUp group mb-12" data-wow-delay=".25s">
+            <div className="wow fadeInUp group mb-12  flex flex-col items-center" data-wow-delay=".25s">
               <div
                 className="relative z-10 mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-[14px] bg-primary"
               >

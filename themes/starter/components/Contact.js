@@ -25,7 +25,7 @@ export const Contact = () => {
                   </h2>
                 </div>
                 <div className='mb-12 flex flex-wrap justify-between lg:mb-0'>
-                  <div className='mb-8 flex w-[330px] max-w-full'>
+                  {/* <div className='mb-8 flex w-[330px] max-w-full'>
                     <div className='mr-6 text-[32px] text-primary'>
                       <SVGLocation />
                     </div>
@@ -45,8 +45,8 @@ export const Contact = () => {
                         )}
                       </p>
                     </div>
-                  </div>
-                  <div className='mb-8 flex w-[330px] max-w-full'>
+                  </div> */}
+                  {/* <div className='mb-8 flex w-[330px] max-w-full'>
                     <div className='mr-6 text-[32px] text-primary'>
                       <SVGEmail />
                     </div>
@@ -62,7 +62,7 @@ export const Contact = () => {
                         {siteConfig('STARTER_CONTACT_EMAIL_TEXT', null, CONFIG)}
                       </p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

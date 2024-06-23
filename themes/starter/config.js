@@ -66,9 +66,9 @@ const CONFIG = {
   STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '2.2亿公里',
-  STARTER_ABOUT_TIPS_2: '智架里程',
-  STARTER_ABOUT_TIPS_3: '正在不断进步中',
+  STARTER_ABOUT_TIPS_1: '+2.2亿公里',
+  STARTER_ABOUT_TIPS_2: '智驾里程',
+  STARTER_ABOUT_TIPS_3: '正在不断进化中',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: true, // 价格区块开关
@@ -121,8 +121,7 @@ const CONFIG = {
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
         '全铝合金底盘，质感领先，更耐腐蚀。闭式系统空气悬架，5 档高度调节，疾速响应，连续操控更稳定。CDC 可变阻尼减震器，软硬动态调节，平稳路面或崎岖地形同样畅行。',
-      STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
+      STARTER_TESTIMONIALS_ITEM_AVATAR: false,
       STARTER_TESTIMONIALS_ITEM_NICKNAME: '豪华底盘',
       STARTER_TESTIMONIALS_ITEM_DESCRIPTION: false,
       STARTER_TESTIMONIALS_ITEM_URL: false
@@ -131,7 +130,7 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_TEXT:
         '同级领先转弯半径 5.8 米，灵活转向，调头不难，探索城市角落游刃有余；冗余 EPS 配置，转向助力失效时及时介入，智驾更安心',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d33d169-f932-41ff-ac6b-88a923c08e02%2F%25E5%25A4%25B4%25E5%2583%258F.jfif?table=collection&id=7787658d-d5c0-4f34-8e32-60c523dfaba3&width=400',
+        false,
       STARTER_TESTIMONIALS_ITEM_NICKNAME: '畅行城市',
       STARTER_TESTIMONIALS_ITEM_DESCRIPTION: false,
       STARTER_TESTIMONIALS_ITEM_URL: false
@@ -140,7 +139,7 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_TEXT:
         '路面感知、智能车辆状态感知、动态自适应扭⁠矩系统、智能车身协同控制系统相互协作， 在动态驾驶过程中从容应对各种路况和突发情⁠况，有效提升驾乘舒适性以及安⁠全⁠性。 同级领先转弯半径 5.8 米，灵活转向，调头不难，探索城市角落游刃有余； 冗余 EPS 配置，转向助力失效时及时介入，智驾更安心。 智能四驱可自动识别驾驶环境，自动分配扭矩；切换行驶模式，复杂路况 打滑或陷入水坑亦能轻松解困，平稳通过，郊外远行自在无忧。',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F6c096b44-beb9-48ee-8f92-1efdde47f3a3%2F338962f1-d352-49c7-9a1b-746e35a7005c%2Fhf.png?table=block&id=ce5a48a9-d77a-4843-a3d9-a78cd4f794ce&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
+        false,
       STARTER_TESTIMONIALS_ITEM_NICKNAME: '智能底盘',
       STARTER_TESTIMONIALS_ITEM_DESCRIPTION: false,
       STARTER_TESTIMONIALS_ITEM_URL: false
@@ -149,8 +148,8 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_TEXT:
         '智能四驱可自动识别驾驶环境，自动分配扭矩；切换行驶模式，复杂路况 打滑或陷入水坑亦能轻松解困，平稳通过，郊外远行自在无忧。',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: '自在越野 ',
+        false,
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: '自在越野',
       STARTER_TESTIMONIALS_ITEM_DESCRIPTION: false,
       STARTER_TESTIMONIALS_ITEM_URL: false
     },
@@ -223,11 +222,11 @@ const CONFIG = {
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
   STARTER_CONTACT_TITLE: '联系我们',
-  STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
-  STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
-  STARTER_CONTACT_LOCATION_TEXT: '中国',
-  STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
-  STARTER_CONTACT_EMAIL_TEXT: 'mail@imsunhf@gmail.com',
+  STARTER_CONTACT_TEXT: '给我们留言',
+  STARTER_CONTACT_LOCATION_TITLE: false,
+  STARTER_CONTACT_LOCATION_TEXT: false,
+  STARTER_CONTACT_EMAIL_TITLE: false,
+  STARTER_CONTACT_EMAIL_TEXT: false,
 
   // 嵌入外部表单
   STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/noteforms-fcm4xh', // 基于NoteForm创建，将留言数据存在Notion中
@@ -329,13 +328,13 @@ const CONFIG = {
 
   STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
-  STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
+  STARTER_FOOTER_PRIVACY_POLICY_TEXT: '',
   STARTER_FOOTER_PRIVACY_POLICY_URL: '',
 
-  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
+  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '',
   STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '',
 
-  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
+  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '',
   STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '',
 
   // 404页面的提示语
